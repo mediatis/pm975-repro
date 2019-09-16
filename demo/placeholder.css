@@ -1,0 +1,9 @@
+.ProseMirror placeholder {
+  background: rgba(29, 131, 226, .12);
+  color: black;
+}
+
+.ProseMirror placeholder span.testing {
+  background: rgba(29, 131, 226, .12);
+  color: #688eb1;
+}
