@@ -1,4 +1,4 @@
-# Test case for ProseMirror/prosemirror#975
+# Test case for placeholders in ProseMirror with IE
 
 Steps to reproduce:
 1. Clone this repository
@@ -8,14 +8,12 @@ Steps to reproduce:
 5. Launch IE11 (yeah, here the painful part starts)
 6. Navigate to `http://{addr}:{port}/demo/`
 
-Bugs:
-1. JS illegal argument error
+Current bug:
+1. Mark discontinued after typing word boundary
    - Select the word "placeholder" (it should be light blue). *Don't include the space following the placeholder in the selection.*
    - Type a character
-   - Observe an "illegal argument" error being listed in the console
-2. Typed input discarded, mark removed
-   - Select the word "placeholder ". *Include the space at the end.*
-   - Type a character
-   - Note that the typed character is not shown and the placeholder mark is also gone
+   - Type a space
+   - Type another character
+   - Observe that the mark was automatically ended when the space was entered
 
-In my testing there was no difference between selecting with the keyboard and mouse.
+In my testing there was no difference between selecting with the keyboard and mouse. This also happens with the Dev Tools open.

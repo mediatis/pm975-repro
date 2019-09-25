@@ -14,11 +14,11 @@
   "dependencies": {
     "prosemirror-example-setup": "^1.0.1",
     "prosemirror-schema-basic": "^1.0.1",
-    "prosemirror-view": "^1.11.2"
+    "prosemirror-view": "^1.11.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "rollup": "^1.21.4",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
