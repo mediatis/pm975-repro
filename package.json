@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prosemirror-example-setup": "^1.0.1",
-    "prosemirror-schema-basic": "^1.0.1",
-    "prosemirror-view": "^1.11.3"
+    "prosemirror-example-setup": "^1.1.2",
+    "prosemirror-schema-basic": "^1.1.2",
+    "prosemirror-view": "^1.13.7"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
